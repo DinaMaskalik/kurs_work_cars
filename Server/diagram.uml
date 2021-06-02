@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="446.0">db.sql.SQLConfiguration</node>
+    <node x="1361.0" y="457.0">db.sql.SQLUser</node>
+    <node x="902.0" y="446.0">db.sql.SQLSeries</node>
+    <node x="670.3125" y="0.0">db.sql.SQLCar</node>
+    <node x="559.0" y="413.0">db.sql.SQLContract</node>
+    <node x="1138.0" y="457.0">db.sql.SQLBrand</node>
+    <node x="793.0" y="734.0">working.Worker</node>
+    <node x="315.0" y="468.0">db.sql.SQLCustomer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="working.Worker" target="db.sql.SQLBrand">
+      <point x="46.5" y="-71.5" />
+      <point x="932.5" y="684.0" />
+      <point x="1188.75" y="684.0" />
+      <point x="-50.75" y="71.5" />
+    </edge>
+    <edge source="working.Worker" target="db.sql.SQLUser">
+      <point x="73.07142857142856" y="-71.5" />
+      <point x="959.0714285714287" y="704.0" />
+      <point x="1411.75" y="704.0" />
+      <point x="-50.75" y="71.5" />
+    </edge>
+    <edge source="working.Worker" target="db.sql.SQLCar">
+      <point x="-6.64285714285711" y="-71.5" />
+      <point x="879.3571428571429" y="714.0" />
+      <point x="880.5" y="714.0" />
+      <point x="880.5" y="393.0" />
+      <point x="813.4375" y="393.0" />
+      <point x="28.625" y="181.5" />
+    </edge>
+    <edge source="working.Worker" target="db.sql.SQLSeries">
+      <point x="19.928571428571445" y="-71.5" />
+      <point x="905.9285714285716" y="664.0" />
+      <point x="956.0" y="664.0" />
+      <point x="-54.0" y="82.5" />
+    </edge>
+    <edge source="working.Worker" target="db.sql.SQLCustomer">
+      <point x="-59.785714285714334" y="-71.5" />
+      <point x="826.2142857142858" y="694.0" />
+      <point x="371.0" y="694.0" />
+      <point x="-56.0" y="60.5" />
+    </edge>
+    <edge source="working.Worker" target="db.sql.SQLContract">
+      <point x="-33.21428571428578" y="-71.5" />
+      <point x="852.7857142857142" y="674.0" />
+      <point x="636.75" y="674.0" />
+      <point x="-77.75" y="115.5" />
+    </edge>
+    <edge source="db.sql.SQLContract" target="db.sql.SQLCar">
+      <point x="0.0" y="-115.5" />
+      <point x="714.5" y="393.0" />
+      <point x="756.1875" y="393.0" />
+      <point x="-28.625" y="181.5" />
+    </edge>
+    <edge source="db.sql.SQLCustomer" target="db.sql.SQLCar">
+      <point x="0.0" y="-60.5" />
+      <point x="427.0" y="393.0" />
+      <point x="698.9375" y="393.0" />
+      <point x="-85.875" y="181.5" />
+    </edge>
+    <edge source="working.Worker" target="db.sql.SQLConfiguration">
+      <point x="-73.07142857142856" y="-71.5" />
+      <point x="812.9285714285716" y="704.0" />
+      <point x="221.25" y="704.0" />
+      <point x="73.75" y="82.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="914.6666666666667" y="538.3333333333333" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
